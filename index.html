@@ -4,7 +4,27 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>react-journal</title>
+    <meta
+      name="description"
+      content="React Journal is a small editorial blog built with React, React Router, TailwindCSS."
+    />
+    <title>React Journal</title>
+    <script>
+      (function () {
+        let theme = "light";
+        try {
+          let saved = localStorage.getItem("react-journal:theme");
+          if (saved === "light" || saved === "dark") {
+            theme = saved;
+          } else if (
+            window.matchMedia("(prefers-color-scheme: dark)").matches
+          ) {
+            theme = "dark";
+          }
+        } catch (error) {}
+        document.documentElement.classList.toggle("dark", theme === "dark");
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>
