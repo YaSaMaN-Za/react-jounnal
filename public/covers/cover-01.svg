@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-hidden="true" preserveAspectRatio="xMidYMid slice">
+<defs><linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f172a"/><stop offset="1" stop-color="#134e4a"/></linearGradient></defs>
+<rect width="1200" height="675" fill="url(#g1)"/>
+<circle cx="300" cy="340" r="70" fill="none" stroke="#2dd4bf" stroke-opacity="0.55" stroke-width="3"/>
+<circle cx="300" cy="340" r="132" fill="none" stroke="#2dd4bf" stroke-opacity="0.50" stroke-width="1.5"/>
+<circle cx="300" cy="340" r="194" fill="none" stroke="#2dd4bf" stroke-opacity="0.45" stroke-width="3"/>
+<circle cx="300" cy="340" r="256" fill="none" stroke="#2dd4bf" stroke-opacity="0.40" stroke-width="1.5"/>
+<circle cx="300" cy="340" r="318" fill="none" stroke="#2dd4bf" stroke-opacity="0.35" stroke-width="3"/>
+<circle cx="300" cy="340" r="380" fill="none" stroke="#2dd4bf" stroke-opacity="0.30" stroke-width="1.5"/>
+<circle cx="300" cy="340" r="442" fill="none" stroke="#2dd4bf" stroke-opacity="0.25" stroke-width="3"/>
+<circle cx="300" cy="340" r="504" fill="none" stroke="#2dd4bf" stroke-opacity="0.20" stroke-width="1.5"/>
+<circle cx="300" cy="340" r="566" fill="none" stroke="#2dd4bf" stroke-opacity="0.15" stroke-width="3"/>
+<circle cx="300" cy="340" r="46" fill="#2dd4bf"/>
+</svg>
