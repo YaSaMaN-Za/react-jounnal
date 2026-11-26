@@ -5,12 +5,20 @@ import Button from "./components/Button";
 import EmptyState from "./components/EmptyState";
 import ErrorMessage from "./components/ErrorMessage";
 import Spinner from "./components/Spinner";
+import { ThemeProvider } from "./context/ThemeProvider";
+import ThemeToggle from "./components/ThemeToggle";
 import "./index.css";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <div className="mx-auto max-w-xl space-y-6 p-8">
       <Badge>React</Badge>
+      <ThemeProvider>
+        <div>
+          <ThemeToggle />
+          <p>Theme</p>
+        </div>
+      </ThemeProvider>
       <div className="flex gap-3">
         <Button>Primary</Button>
         <Button variant="secondary">Secondary</Button>
